@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<robot name = "kuka">
+
+    <link name="l_00">
+        <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/visual/link_0.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/collision/link_0.stl"/>
+        </geometry>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </collision>
+    </link>
+
+    <link name="l_01">
+        <visual>
+        <origin xyz="0 0 -0.157" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/visual/link_1.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/collision/link_1.stl"/>
+        </geometry>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </collision>
+    </link>
+
+    <link name="l_02">
+        <visual>
+        <origin xyz="0 0 -0.36" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/visual/link_2.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/collision/link_2.stl"/>
+        </geometry>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </collision>
+    </link>
+
+    <link name="l_03">
+        <visual>
+        <origin xyz="0 0 -0.597" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/visual/link_3.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/collision/link_3.stl"/>
+        </geometry>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </collision>
+    </link>
+
+    <link name="l_04">
+        <visual>
+        <origin xyz="0 0 -0.78" rpy="0 0 3.14" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/visual/link_4.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/collision/link_4.stl"/>
+        </geometry>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </collision>
+    </link>
+
+    <link name="l_05">
+        <visual>
+        <origin xyz="0 0 -0.997" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/visual/link_5.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/collision/link_5.stl"/>
+        </geometry>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </collision>
+    </link>
+
+    <link name="l_06">
+        <visual>
+        <origin xyz="0 0 -1.18" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/visual/link_6.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/collision/link_6.stl"/>
+        </geometry>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </collision>
+    </link>
+
+    <link name="l_07">
+        <visual>
+        <origin xyz="0 0 -1.271" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/visual/link_7.dae"/>
+        </geometry>
+        </visual>
+
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename = "package://zadaca_06/kuka/collision/link_7.stl"/>
+        </geometry>
+        <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+        </collision>
+    </link>
+
+
+    <joint name="0_1" type="revolute">
+        <origin xyz="0 0 0.157" rpy="0 0 0"/>
+        <parent link="l_00"/>
+        <child link="l_01"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="1_2" type="revolute">
+        <origin xyz="0 0 0.203" rpy="0 0 0"/>
+        <parent link="l_01"/>
+        <child link="l_02"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="2_3" type="revolute">
+        <origin xyz="0 0 0.237" rpy="0 0 0"/>
+        <parent link="l_02"/>
+        <child link="l_03"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="3_4" type="revolute">
+        <origin xyz="0 0 0.183" rpy="0 0 3.14"/>
+        <parent link="l_03"/>
+        <child link="l_04"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="4_5" type="revolute">
+        <origin xyz="0 0 0.217" rpy="0 0 3.14"/>
+        <parent link="l_04"/>
+        <child link="l_05"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="5_6" type="revolute">
+        <origin xyz="0 0 0.183" rpy="0 0 0"/>
+        <parent link="l_05"/>
+        <child link="l_06"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+    <joint name="6_7" type="revolute">
+        <origin xyz="0 0 0.091" rpy="0 0 0"/>
+        <parent link="l_06"/>
+        <child link="l_07"/>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+        <limit upper="0" lower="0" effort="10" velocity="5" />
+    </joint>
+
+</robot>
