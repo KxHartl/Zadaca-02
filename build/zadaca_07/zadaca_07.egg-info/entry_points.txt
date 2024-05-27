@@ -1,0 +1,6 @@
+[console_scripts]
+bug2 = zadaca_07.bug2:main
+parse_urdf2marker = zadaca_07.parse_urdf2marker:main
+scan_to_range = zadaca_07.scan_to_range:main
+tracker = zadaca_07.tracker:main
+

@@ -1,0 +1,9 @@
+source;share/zadaca_07/hook/pythonpath.ps1
+source;share/zadaca_07/hook/pythonpath.dsv
+source;share/zadaca_07/hook/pythonpath.sh
+source;share/zadaca_07/hook/ament_prefix_path.ps1
+source;share/zadaca_07/hook/ament_prefix_path.dsv
+source;share/zadaca_07/hook/ament_prefix_path.sh
+source;../../build/zadaca_07/share/zadaca_07/hook/pythonpath_develop.ps1
+source;../../build/zadaca_07/share/zadaca_07/hook/pythonpath_develop.dsv
+source;../../build/zadaca_07/share/zadaca_07/hook/pythonpath_develop.sh
