@@ -1,0 +1,38 @@
+[0.764s] Invoking command in '/home/kresimirhartl/zadaca_07/build/zadaca_07': PYTHONPATH=/home/kresimirhartl/zadaca_07/build/zadaca_07/prefix_override:/home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kresimirhartl/zadaca_07/build/zadaca_07/build --no-deps symlink_data --force
+[1.122s] running develop
+[1.310s] running egg_info
+[1.310s] writing zadaca_07.egg-info/PKG-INFO
+[1.310s] writing dependency_links to zadaca_07.egg-info/dependency_links.txt
+[1.311s] writing entry points to zadaca_07.egg-info/entry_points.txt
+[1.311s] writing requirements to zadaca_07.egg-info/requires.txt
+[1.311s] writing top-level names to zadaca_07.egg-info/top_level.txt
+[1.313s] reading manifest file 'zadaca_07.egg-info/SOURCES.txt'
+[1.314s] writing manifest file 'zadaca_07.egg-info/SOURCES.txt'
+[1.316s] running build_ext
+[1.316s] Creating /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca-07.egg-link (link to .)
+[1.317s] Installing bug2 script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+[1.317s] Installing parse_urdf2marker script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+[1.317s] Installing scan_to_range script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+[1.318s] Installing tracker script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+[1.318s] 
+[1.318s] Installed /home/kresimirhartl/zadaca_07/build/zadaca_07
+[1.318s] running symlink_data
+[1.318s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/package.xml -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07
+[1.318s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/labirint_1.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[1.319s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/boxes_layout.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[1.319s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/arena.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[1.319s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/pregrade_2.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[1.319s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/zidovi.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[1.319s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/pregrade_1.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[1.319s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/labirint_2.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[1.319s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/arena_walls.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[1.319s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/Arena_Wall/model.config -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Arena_Wall
+[1.320s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/Arena_Wall/model.sdf -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Arena_Wall
+[1.320s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/Kutija_CRTA/model.config -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Kutija_CRTA
+[1.320s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/Kutija_CRTA/model.sdf -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Kutija_CRTA
+[1.320s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/launch/bug.launch.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/launch/
+[1.320s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/worlds/labirint_2.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+[1.320s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/worlds/Arena_1.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+[1.320s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/worlds/labirint_1.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+[1.320s] symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/config/bug.rviz -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/config/
+[1.353s] Invoked command in '/home/kresimirhartl/zadaca_07/build/zadaca_07' returned '0': PYTHONPATH=/home/kresimirhartl/zadaca_07/build/zadaca_07/prefix_override:/home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kresimirhartl/zadaca_07/build/zadaca_07/build --no-deps symlink_data --force

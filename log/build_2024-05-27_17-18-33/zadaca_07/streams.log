@@ -1,0 +1,65 @@
+[0.963s] Invoking command in '/home/kresimirhartl/zadaca_07/build/zadaca_07': PYTHONPATH=/home/kresimirhartl/zadaca_07/build/zadaca_07/prefix_override:/home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/kresimirhartl/zadaca_07/build/zadaca_07/build
+[1.344s] running develop
+[1.587s] Removing /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca-07.egg-link (link to .)
+[1.638s] Invoked command in '/home/kresimirhartl/zadaca_07/build/zadaca_07' returned '0': PYTHONPATH=/home/kresimirhartl/zadaca_07/build/zadaca_07/prefix_override:/home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/kresimirhartl/zadaca_07/build/zadaca_07/build
+[1.639s] Invoking command in '/home/kresimirhartl/zadaca_07/src/zadaca_07': PYTHONPATH=/home/kresimirhartl/zadaca_07/build/zadaca_07/prefix_override:/home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zadaca_07 build --build-base /home/kresimirhartl/zadaca_07/build/zadaca_07/build install --record /home/kresimirhartl/zadaca_07/build/zadaca_07/install.log --single-version-externally-managed install_data --force
+[2.006s] running egg_info
+[2.009s] writing ../../build/zadaca_07/zadaca_07.egg-info/PKG-INFO
+[2.009s] writing dependency_links to ../../build/zadaca_07/zadaca_07.egg-info/dependency_links.txt
+[2.009s] writing entry points to ../../build/zadaca_07/zadaca_07.egg-info/entry_points.txt
+[2.009s] writing requirements to ../../build/zadaca_07/zadaca_07.egg-info/requires.txt
+[2.009s] writing top-level names to ../../build/zadaca_07/zadaca_07.egg-info/top_level.txt
+[2.011s] reading manifest file '../../build/zadaca_07/zadaca_07.egg-info/SOURCES.txt'
+[2.012s] adding license file 'LICENSE'
+[2.013s] writing manifest file '../../build/zadaca_07/zadaca_07.egg-info/SOURCES.txt'
+[2.013s] running build
+[2.013s] running build_py
+[2.014s] creating /home/kresimirhartl/zadaca_07/build/zadaca_07/build
+[2.014s] creating /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib
+[2.014s] creating /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+[2.014s] copying zadaca_07/__init__.py -> /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+[2.014s] copying zadaca_07/parse_urdf2marker.py -> /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+[2.014s] copying zadaca_07/tracker.py -> /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+[2.014s] copying zadaca_07/bug2.py -> /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+[2.014s] copying zadaca_07/scan_to_range.py -> /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+[2.014s] running install
+[2.015s] running install_lib
+[2.016s] creating /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+[2.016s] copying /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07/__init__.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+[2.016s] copying /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07/parse_urdf2marker.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+[2.016s] copying /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07/tracker.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+[2.016s] copying /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07/bug2.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+[2.016s] copying /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07/scan_to_range.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+[2.017s] byte-compiling /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07/__init__.py to __init__.cpython-310.pyc
+[2.018s] byte-compiling /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07/parse_urdf2marker.py to parse_urdf2marker.cpython-310.pyc
+[2.019s] byte-compiling /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07/tracker.py to tracker.cpython-310.pyc
+[2.020s] byte-compiling /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07/bug2.py to bug2.cpython-310.pyc
+[2.023s] byte-compiling /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07/scan_to_range.py to scan_to_range.cpython-310.pyc
+[2.025s] running install_data
+[2.026s] copying package.xml -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07
+[2.026s] copying models/labirint_1.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[2.026s] copying models/boxes_layout.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[2.026s] copying models/arena.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[2.027s] copying models/pregrade_2.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[2.027s] copying models/zidovi.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[2.027s] copying models/pregrade_1.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[2.027s] copying models/labirint_2.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[2.027s] copying models/arena_walls.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+[2.028s] copying models/Arena_Wall/model.config -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Arena_Wall
+[2.028s] copying models/Arena_Wall/model.sdf -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Arena_Wall
+[2.028s] copying models/Kutija_CRTA/model.config -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Kutija_CRTA
+[2.028s] copying models/Kutija_CRTA/model.sdf -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Kutija_CRTA
+[2.029s] copying launch/bug.launch.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/launch/
+[2.029s] copying worlds/labirint_2.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+[2.029s] copying worlds/Arena_1.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+[2.029s] copying worlds/labirint_1.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+[2.029s] copying config/bug.rviz -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/config/
+[2.029s] running install_egg_info
+[2.031s] Copying ../../build/zadaca_07/zadaca_07.egg-info to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07-0.0.0-py3.10.egg-info
+[2.032s] running install_scripts
+[2.059s] Installing bug2 script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+[2.059s] Installing parse_urdf2marker script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+[2.059s] Installing scan_to_range script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+[2.059s] Installing tracker script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+[2.059s] writing list of installed files to '/home/kresimirhartl/zadaca_07/build/zadaca_07/install.log'
+[2.107s] Invoked command in '/home/kresimirhartl/zadaca_07/src/zadaca_07' returned '0': PYTHONPATH=/home/kresimirhartl/zadaca_07/build/zadaca_07/prefix_override:/home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zadaca_07 build --build-base /home/kresimirhartl/zadaca_07/build/zadaca_07/build install --record /home/kresimirhartl/zadaca_07/build/zadaca_07/install.log --single-version-externally-managed install_data --force

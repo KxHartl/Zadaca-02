@@ -1,0 +1,61 @@
+running develop
+Removing /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca-07.egg-link (link to .)
+running egg_info
+writing ../../build/zadaca_07/zadaca_07.egg-info/PKG-INFO
+writing dependency_links to ../../build/zadaca_07/zadaca_07.egg-info/dependency_links.txt
+writing entry points to ../../build/zadaca_07/zadaca_07.egg-info/entry_points.txt
+writing requirements to ../../build/zadaca_07/zadaca_07.egg-info/requires.txt
+writing top-level names to ../../build/zadaca_07/zadaca_07.egg-info/top_level.txt
+reading manifest file '../../build/zadaca_07/zadaca_07.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/zadaca_07/zadaca_07.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kresimirhartl/zadaca_07/build/zadaca_07/build
+creating /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib
+creating /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+copying zadaca_07/__init__.py -> /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+copying zadaca_07/parse_urdf2marker.py -> /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+copying zadaca_07/tracker.py -> /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+copying zadaca_07/bug2.py -> /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+copying zadaca_07/scan_to_range.py -> /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07
+running install
+running install_lib
+creating /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+copying /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07/__init__.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+copying /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07/parse_urdf2marker.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+copying /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07/tracker.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+copying /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07/bug2.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+copying /home/kresimirhartl/zadaca_07/build/zadaca_07/build/lib/zadaca_07/scan_to_range.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07
+byte-compiling /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07/parse_urdf2marker.py to parse_urdf2marker.cpython-310.pyc
+byte-compiling /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07/tracker.py to tracker.cpython-310.pyc
+byte-compiling /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07/bug2.py to bug2.cpython-310.pyc
+byte-compiling /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07/scan_to_range.py to scan_to_range.cpython-310.pyc
+running install_data
+copying package.xml -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07
+copying models/labirint_1.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+copying models/boxes_layout.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+copying models/arena.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+copying models/pregrade_2.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+copying models/zidovi.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+copying models/pregrade_1.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+copying models/labirint_2.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+copying models/arena_walls.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+copying models/Arena_Wall/model.config -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Arena_Wall
+copying models/Arena_Wall/model.sdf -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Arena_Wall
+copying models/Kutija_CRTA/model.config -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Kutija_CRTA
+copying models/Kutija_CRTA/model.sdf -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Kutija_CRTA
+copying launch/bug.launch.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/launch/
+copying worlds/labirint_2.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+copying worlds/Arena_1.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+copying worlds/labirint_1.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+copying config/bug.rviz -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/config/
+running install_egg_info
+Copying ../../build/zadaca_07/zadaca_07.egg-info to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca_07-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bug2 script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+Installing parse_urdf2marker script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+Installing scan_to_range script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+Installing tracker script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+writing list of installed files to '/home/kresimirhartl/zadaca_07/build/zadaca_07/install.log'

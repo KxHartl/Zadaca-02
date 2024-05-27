@@ -1,0 +1,44 @@
+running develop
+running egg_info
+creating zadaca_07.egg-info
+writing zadaca_07.egg-info/PKG-INFO
+writing dependency_links to zadaca_07.egg-info/dependency_links.txt
+writing entry points to zadaca_07.egg-info/entry_points.txt
+writing requirements to zadaca_07.egg-info/requires.txt
+writing top-level names to zadaca_07.egg-info/top_level.txt
+writing manifest file 'zadaca_07.egg-info/SOURCES.txt'
+reading manifest file 'zadaca_07.egg-info/SOURCES.txt'
+writing manifest file 'zadaca_07.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/python3.10/site-packages/zadaca-07.egg-link (link to .)
+Installing bug2 script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+Installing parse_urdf2marker script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+Installing scan_to_range script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+Installing tracker script to /home/kresimirhartl/zadaca_07/install/zadaca_07/lib/zadaca_07
+
+Installed /home/kresimirhartl/zadaca_07/build/zadaca_07
+running symlink_data
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/package.xml -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07
+creating /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/labirint_1.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/boxes_layout.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/arena.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/pregrade_2.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/zidovi.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/pregrade_1.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/labirint_2.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/arena_walls.xacro -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/
+creating /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Arena_Wall
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/Arena_Wall/model.config -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Arena_Wall
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/Arena_Wall/model.sdf -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Arena_Wall
+creating /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Kutija_CRTA
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/Kutija_CRTA/model.config -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Kutija_CRTA
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/models/Kutija_CRTA/model.sdf -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/models/Kutija_CRTA
+creating /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/launch
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/launch/bug.launch.py -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/launch/
+creating /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/worlds/labirint_2.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/worlds/Arena_1.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/worlds/labirint_1.world -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/worlds/
+creating /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/config
+symbolically linking /home/kresimirhartl/zadaca_07/build/zadaca_07/config/bug.rviz -> /home/kresimirhartl/zadaca_07/install/zadaca_07/share/zadaca_07/config/
