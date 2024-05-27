@@ -288,7 +288,11 @@ class Bug2(Node):
                 # Change the state
                 self.go_to_goal_state = "goal achieved"
                 self.poruka_2 = "ROBOT_MODE = go to goal // goal achieved"
-                 
+
+                self.robot_mode = "done"
+                
+                self.linear.x = 0.0
+                self.angular.z = 0.0
                 self.cmd_pub.publish(msg)
 
 
@@ -434,6 +438,9 @@ class Bug2(Node):
 
         elif self.robot_mode == "wall following mode":
             self.follow_wall()
+
+        elif self.robot_mode == "done":
+            pass
 
 
 def main(args=None):
