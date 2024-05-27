@@ -37,7 +37,7 @@ class Bug2(Node):
         # tolerancije
         self.yaw_precision = 2 *(math.pi / 180)
         self.dist_precision = 0.1 # tolerancija za cilj
-        self.distance_to_start_goal_line_precision = 0.15
+        self.distance_to_start_goal_line_precision = 0.1
 
         self.leave_point_to_hit_point_diff = 0.2
 
