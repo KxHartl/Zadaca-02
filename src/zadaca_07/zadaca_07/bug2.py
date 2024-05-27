@@ -42,10 +42,10 @@ class Bug2(Node):
         self.leave_point_to_hit_point_diff = 0.2
 
         # limiti
-        self.dist_thresh_obs = 0.55 #udaljenost za trazenje prepreka
-        self.dist_thresh_wf = 0.5 #udaljenost na kojoj se prati zid
+        self.dist_thresh_obs = 0.5 #udaljenost za trazenje prepreka
+        self.dist_thresh_wf = 0.45 #udaljenost na kojoj se prati zid
         self.dist_too_close_to_wall = 0.4 #je li je robot pre blizu yidu
-        self.dist_thresh_bug2 = 0.55 #udaljenost kad je robot dosao do zida
+        self.dist_thresh_bug2 = 0.5 #udaljenost kad je robot dosao do zida
 
         # varijable senzora
         self.leftfront_dist = 0.0
