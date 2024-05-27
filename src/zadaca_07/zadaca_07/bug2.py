@@ -291,8 +291,8 @@ class Bug2(Node):
 
                 self.robot_mode = "done"
                 
-                self.msg.linear.x = 0.0
-                self.msg.angular.z = 0.0
+                msg.linear.x = 0.0
+                msg.angular.z = 0.0
                 self.cmd_pub.publish(msg)
 
 
