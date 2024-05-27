@@ -126,13 +126,13 @@ class ObstacleCoursePublisher(Node):
             marker.scale.y = obj_info['size'][1]
             marker.scale.z = obj_info['size'][2]
             marker.color.a = 0.5  # Transparency
-            # marker.color.r = 1.0 if 'box' in obj_name else 0.4
-            # marker.color.g = 0.0 if 'box' in obj_name else 0.2
-            # marker.color.b = 0.0
+            marker.color.r = 1.0 if 'box' in obj_name else 0.4
+            marker.color.g = 0.0 if 'box' in obj_name else 0.2
+            marker.color.b = 0.0
 
-            marker.color.r = 1.0 if 'box' in obj_name else 0.5
-            marker.color.g = 1.0 if 'box' in obj_name else 0.5
-            marker.color.b = 0.0 if 'box' in obj_name else 0.5
+            #marker.color.r = 1.0 if 'box' in obj_name else 0.5
+            #marker.color.g = 1.0 if 'box' in obj_name else 0.5
+            #marker.color.b = 0.0 if 'box' in obj_name else 0.5
 
             # Assign unique namespace (ns) and ID for each marker
             marker.ns = str(obj_name)  # Use object name as namespace
