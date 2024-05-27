@@ -372,7 +372,7 @@ class Bug2(Node):
         if self.leftfront_dist > d and self.rightfront_dist > d:
             #skretanje desno
             msg.linear.x = self.forward_speed
-            msg.angular.z = -self.turning_speed_wf_slow +0.1
+            msg.angular.z = -self.turning_speed_wf_slow +0.05
              
         elif (self.leftfront_dist > d and self.rightfront_dist < d):
             if (self.rightfront_dist < self.dist_too_close_to_wall):
