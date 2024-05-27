@@ -14,7 +14,7 @@ class ObstacleCoursePublisher(Node):
         
         # Load URDF file and process it with xacro
         pkg_name = 'zadaca_07'
-        urdf_file = os.path.join(get_package_share_directory(pkg_name), 'models', 'labirint_2.xacro')
+        urdf_file = os.path.join(get_package_share_directory(pkg_name), 'models', 'arena.xacro')
         self.urdf_xml = xacro.process_file(urdf_file).toxml()
         
         # Parse URDF and extract obstacle geometry information
