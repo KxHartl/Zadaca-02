@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <material name="white">
+        <color rgba="1 1 1 1.0" />
+    </material>
+
+    <joint name="wall_1_joint" type="fixed">
+        <origin xyz="5 0 0.5" rpy="0.0 0.0 -${pi/2}" />
+        <parent link="polygon_base" />
+        <child link="wall_1" />
+    </joint>
+
+    <link name="wall_1">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <box size="10 0.15 1" />
+            </geometry>
+            <material name="white" />
+        </visual>
+    </link>
+
+    <joint name="wall_2_joint" type="fixed">
+        <origin xyz="0.0 5 0.5" />
+        <parent link="polygon_base" />
+        <child link="wall_2" />
+    </joint>
+
+    <link name="wall_2">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" />
+            <geometry>
+                <box size="10 0.15 1" />
+            </geometry>
+            <material name="white" />
+        </visual>
+    </link>
+
+    <joint name="wall_3_joint" type="fixed">
+        <origin xyz="-5 0 0.5" rpy="0.0 0.0 -${pi/2}" />
+        <parent link="polygon_base" />
+        <child link="wall_3" />
+    </joint>
+
+    <link name="wall_3">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <box size="10 0.15 1" />
+            </geometry>
+            <material name="white" />
+        </visual>
+    </link>
+
+
+    <joint name="wall_4_joint" type="fixed">
+        <origin xyz="0.0 -5 0.5" />
+        <parent link="polygon_base" />
+        <child link="wall_4" />
+    </joint>
+
+    <link name="wall_4">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" />
+            <geometry>
+                <box size="10 0.15 1" />
+            </geometry>
+            <material name="white" />
+        </visual>
+    </link>
+
+
+</robot>
