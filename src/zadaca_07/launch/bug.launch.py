@@ -14,7 +14,7 @@ def generate_launch_description():
 
     pkg_name='zadaca_07'
     dir_name='models'
-    xacro_file='labirint_2.xacro'
+    xacro_file='arena.xacro'
     xacro_location = os.path.join(get_package_share_directory(pkg_name), dir_name, xacro_file)  ## NE RADI U GAZEBO
     polygon_description_xacro = xacro.process_file(xacro_location).toxml()                        ## NE RADI U GAZEBO
 
@@ -25,7 +25,7 @@ def generate_launch_description():
 
     world_arg = DeclareLaunchArgument(
         'world',
-        default_value=os.path.join(get_package_share_directory('zadaca_07'), 'worlds', 'labirint_2.world'),
+        default_value=os.path.join(get_package_share_directory('zadaca_07'), 'worlds', 'Arena_1.world'),
         description='Full path to the world file to load.'
     )
 
